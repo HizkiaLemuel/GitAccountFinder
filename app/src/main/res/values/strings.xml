@@ -1,0 +1,13 @@
+<resources>
+    <!--    <string name="app_name">Git Account Finder</string>-->
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="search_hint">Search Github users</string>
+    <string name="image_content_desc">Image</string>
+    <string name="empty_result">Account Not Found</string>
+    <string name="common_exit_msg">If you click once again, the app will be closed</string>
+
+</resources>

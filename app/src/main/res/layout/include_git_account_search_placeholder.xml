@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shimmer="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sf_shimmer_placeholder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    shimmer:duration="600">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_git_account_placeholder_layout" />
+
+        <include layout="@layout/item_git_account_placeholder_layout" />
+
+        <include layout="@layout/item_git_account_placeholder_layout" />
+
+        <include layout="@layout/item_git_account_placeholder_layout" />
+
+        <include layout="@layout/item_git_account_placeholder_layout" />
+
+        <include layout="@layout/item_git_account_placeholder_layout" />
+
+        <include layout="@layout/item_git_account_placeholder_layout" />
+
+        <include layout="@layout/item_git_account_placeholder_layout" />
+
+    </LinearLayout>
+
+</com.facebook.shimmer.ShimmerFrameLayout>
